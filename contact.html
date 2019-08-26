@@ -11,78 +11,74 @@
 </head>
 
 <body>
-  <!-- Navbar min 576 -->
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-    <!-- <a class="d-inline p-2 bg-primary text-white" href="index.html">Annie Cheng</a> -->
-      <a class="navbar-brand mb-0 h1" href="index.html">Annie Cheng</a>
-      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button> -->
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item p-2">
-            <a class="nav-link" href="index.html">About </a>
-          </li>
-          <li class="nav-item p-2">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item active p-2">
-            <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
-          </li>
-        </ul>
-        <!-- <span class="navbar-text">
-          Navbar text with an inline element
-        </span> -->
-      </div>
-  </nav>
+<!-- Navbar min 576 -->
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <!-- <a class="d-inline p-2 bg-primary text-white" href="index.html">Annie Cheng</a> -->
+  <!-- navbar header name    -->
+  <a class="navbar-brand mb-0 h1" href="index.html">Annie Cheng</a>
+  <!-- navbar menu items -->
 
+  <div class="collapse navbar-collapse" id="navbarText">
+    <!-- ml-auto allows menu to float right  -->
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item p-2">
+        <a class="nav-link" href="index.html">About </a>
+      </li>
+      <li class="nav-item p-2">
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+      </li>
+      <li class="nav-item active p-2">
+        <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
+<br>
 
-    <!-- <ul class="nav justify-content-end" style="background-color: #e3f2fd;"> -->
-
-
-
-
-
-  <br>
-  <br>
-  <div class="container">
-    <div class="row justify-content-md-center">
-      <div class="col-9 bg-warning text-dark" id="main_section">
-        <br>
-        <br>
-        <div class="row">
-          <h2>Contact</h2>
+<div class="container-fluid">
+  <!-- content row  -->
+  <div class="row justify-content-md-center">
+    <div class="col-xs-12 col-md-9 bg-warning text-dark" id="main_section">
+      <br>
+      <br>
+      <div class="row justify-content-md-center">
+        <div class="col-11">
+            <h2>Contact</h2>
         </div>
-        <br>
-        <!-- Contact form row-->
-        <div class="row justify-content-md-center">
-          <form>
-            <div class="form-group">
-              <!-- Name field  -->
-              <label for="input_name">Name</label>
-              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter your name">
-              <!-- Email address field  -->
-              <label for="input_email1">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                placeholder="Enter email">
-              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-            </div>
-            <!-- message field  -->
-            <div class="form-group">
-              <label for="form_message">Message</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-            </div>
-            <!-- Submit button  -->
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
-        </div>
-        <br>
-        <br>
       </div>
+      <br>
+      <!-- Contact form row-->
+      <div class="row justify-content-md-center">
+        <form class="col-sm-12 col-md-11">
+          <div class="form-group">
+            <label for="input_name">Name</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter your name">
+          </div>
+          <div class="form-group">
+            <label for="input_email1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <!-- message field  -->
+          <div class="form-group">
+            <label for="form_message">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+          </div>
+          <!-- Submit button  -->
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <br>
+      <br>
     </div>
   </div>
+  <!-- footer row  -->
+  <div class="row">
+    footer
+  </div>
+</div>
 
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
